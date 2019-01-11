@@ -10,6 +10,21 @@ a:hover {
 }
 
 /* Custom default button */
+.btn-primary {
+  color: #F05F40;
+  background-color: white;
+}
+.btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-xl {
+  padding: 15px 30px;
+}
+
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -53,10 +68,11 @@ a:hover,
 a:focus {
   color: #eb3812;
 }
+/*
 .cover-container {
   max-width: 42em;
 }
-
+*/
 
 /*
  * Header
