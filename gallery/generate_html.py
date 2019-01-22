@@ -50,7 +50,7 @@ with open('gallery.csv', mode='r') as csv_file:
         if line_count == 0:
             print(f'Column names are {", ".join(row)}')
             line_count += 1
-        f.write('              <div class="col-sm-1 col-md-2">' + '\n')
+        f.write('              <div class="col-sm-2 col-md-2">' + '\n')
         f.write(f'                <a class="lightbox" href="images/{row["Name"]}.jpg">' + '\n')
         f.write(f'                  <img src="images/{row["Name"]}.jpg" alt="{row["Alt"]}">' + '\n')
         f.write('                </a>' + '\n')
